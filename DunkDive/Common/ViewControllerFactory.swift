@@ -87,11 +87,30 @@ final class ViewControllerFactory {
         return viewController
     }
 
+    static func makeAddStrategyViewController(navigationModel: SubjectNavigationModel) -> AddStrategyViewController {
+        let assembler = Assembler(commonAssemblies + [AddStrategyAssembly()])
+        let viewController = AddStrategyViewController()
+        viewController.viewModel = assembler.resolver.resolve(IAddStrategyViewModel.self, argument: navigationModel)
+        return viewController
+    }
+
+    static func makeEditStrategyViewController(navigationModel: StrategyNavigationModel) -> EditStrategyViewController {
+        let assembler = Assembler(commonAssemblies + [EditStrategyAssembly()])
+        let viewController = EditStrategyViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditStrategyViewModel.self, argument: navigationModel)
+        return viewController
+    }
+
     //MARK: Settings
     static func makeSettingsViewController() -> SettingsViewController {
         let assembler = Assembler(commonAssemblies + [SettingsAssembly()])
         let viewController = SettingsViewController()
         viewController.viewModel = assembler.resolver.resolve(ISettingsViewModel.self)
+        return viewController
+    }
+
+    static func makeUsageViewController() -> UsageViewController {
+        let viewController = UsageViewController()
         return viewController
     }
 }

@@ -76,6 +76,15 @@
 		CCC114C72CC936EC0099D384 /* EditTeamAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114C62CC936EC0099D384 /* EditTeamAssembly.swift */; };
 		CCC114CA2CC93D9D0099D384 /* EditBetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114C92CC93D9D0099D384 /* EditBetViewController.swift */; };
 		CCC114CC2CC93DA30099D384 /* EditBetAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114CB2CC93DA30099D384 /* EditBetAssembly.swift */; };
+		CCC114CF2CC946A60099D384 /* EmptyStrategyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114CE2CC946A60099D384 /* EmptyStrategyCollectionViewCell.swift */; };
+		CCC114D12CC947140099D384 /* StrategyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114D02CC947140099D384 /* StrategyCollectionViewCell.swift */; };
+		CCC114D42CC94A3B0099D384 /* AddStrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114D32CC94A3B0099D384 /* AddStrategyViewController.swift */; };
+		CCC114D62CC94A430099D384 /* AddStrategyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114D52CC94A420099D384 /* AddStrategyAssembly.swift */; };
+		CCC114D82CC94C5D0099D384 /* AddStrategyPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114D72CC94C5D0099D384 /* AddStrategyPhoto.swift */; };
+		CCC114DB2CC94E770099D384 /* EditStrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114DA2CC94E770099D384 /* EditStrategyViewController.swift */; };
+		CCC114DF2CC94EA60099D384 /* EditStrategyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114DE2CC94EA60099D384 /* EditStrategyAssembly.swift */; };
+		CCC114E12CC952B60099D384 /* EmptyBetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114E02CC952B60099D384 /* EmptyBetCollectionViewCell.swift */; };
+		CCC114E42CC95AF30099D384 /* UsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114E32CC95AF30099D384 /* UsageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +155,15 @@
 		CCC114C62CC936EC0099D384 /* EditTeamAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeamAssembly.swift; sourceTree = "<group>"; };
 		CCC114C92CC93D9D0099D384 /* EditBetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBetViewController.swift; sourceTree = "<group>"; };
 		CCC114CB2CC93DA30099D384 /* EditBetAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBetAssembly.swift; sourceTree = "<group>"; };
+		CCC114CE2CC946A60099D384 /* EmptyStrategyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStrategyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCC114D02CC947140099D384 /* StrategyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCC114D32CC94A3B0099D384 /* AddStrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrategyViewController.swift; sourceTree = "<group>"; };
+		CCC114D52CC94A420099D384 /* AddStrategyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrategyAssembly.swift; sourceTree = "<group>"; };
+		CCC114D72CC94C5D0099D384 /* AddStrategyPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrategyPhoto.swift; sourceTree = "<group>"; };
+		CCC114DA2CC94E770099D384 /* EditStrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStrategyViewController.swift; sourceTree = "<group>"; };
+		CCC114DE2CC94EA60099D384 /* EditStrategyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStrategyAssembly.swift; sourceTree = "<group>"; };
+		CCC114E02CC952B60099D384 /* EmptyBetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBetCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCC114E32CC95AF30099D384 /* UsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,6 +390,9 @@
 		CCC114852CC679180099D384 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				CCC114D92CC94E6C0099D384 /* EditStrategy */,
+				CCC114D22CC94A2F0099D384 /* AddStrategy */,
+				CCC114CD2CC9468F0099D384 /* Cell */,
 				CCC114932CC679510099D384 /* StrategyViewController.swift */,
 				CCC114952CC6795B0099D384 /* StrategyRouter.swift */,
 				CCC114972CC679620099D384 /* StrategyAssembly.swift */,
@@ -382,6 +403,7 @@
 		CCC114862CC6791D0099D384 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				CCC114E22CC95AE80099D384 /* Usage */,
 				CCC114992CC6796B0099D384 /* SettingsViewController.swift */,
 				CCC1149B2CC679720099D384 /* SettingsRouter.swift */,
 				CCC1149D2CC6797B0099D384 /* SettingsAssembly.swift */,
@@ -420,6 +442,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC114AF2CC8D0370099D384 /* AddTeamPhoto.swift */,
+				CCC114D72CC94C5D0099D384 /* AddStrategyPhoto.swift */,
 			);
 			path = AddPhoto;
 			sourceTree = "<group>";
@@ -456,6 +479,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC114C02CC9245B0099D384 /* TeamCollectionViewCell.swift */,
+				CCC114E02CC952B60099D384 /* EmptyBetCollectionViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -476,6 +500,41 @@
 				CCC114CB2CC93DA30099D384 /* EditBetAssembly.swift */,
 			);
 			path = EditBet;
+			sourceTree = "<group>";
+		};
+		CCC114CD2CC9468F0099D384 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114CE2CC946A60099D384 /* EmptyStrategyCollectionViewCell.swift */,
+				CCC114D02CC947140099D384 /* StrategyCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCC114D22CC94A2F0099D384 /* AddStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114D32CC94A3B0099D384 /* AddStrategyViewController.swift */,
+				CCC114D52CC94A420099D384 /* AddStrategyAssembly.swift */,
+			);
+			path = AddStrategy;
+			sourceTree = "<group>";
+		};
+		CCC114D92CC94E6C0099D384 /* EditStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114DA2CC94E770099D384 /* EditStrategyViewController.swift */,
+				CCC114DE2CC94EA60099D384 /* EditStrategyAssembly.swift */,
+			);
+			path = EditStrategy;
+			sourceTree = "<group>";
+		};
+		CCC114E22CC95AE80099D384 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114E32CC95AF30099D384 /* UsageViewController.swift */,
+			);
+			path = Usage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,6 +629,7 @@
 				CCC1149E2CC6797B0099D384 /* SettingsAssembly.swift in Sources */,
 				CCC114B02CC8D0370099D384 /* AddTeamPhoto.swift in Sources */,
 				CCC1147F2CC676850099D384 /* Drawer.swift in Sources */,
+				CCC114CF2CC946A60099D384 /* EmptyStrategyCollectionViewCell.swift in Sources */,
 				CCC114752CC6760B0099D384 /* OnboardingAssembly.swift in Sources */,
 				CCC114532CC66A2D0099D384 /* UntilOnboardingRouter.swift in Sources */,
 				CCC114A52CC8CAE10099D384 /* TabBarRouter.swift in Sources */,
@@ -580,6 +640,7 @@
 				CCC114552CC66A350099D384 /* UntilOnboardingAssembly.swift in Sources */,
 				CCC114922CC679460099D384 /* BetAssembly.swift in Sources */,
 				CCC114BA2CC90E890099D384 /* BetTableViewCell.swift in Sources */,
+				CCC114DB2CC94E770099D384 /* EditStrategyViewController.swift in Sources */,
 				CCC114882CC679270099D384 /* TeamViewController.swift in Sources */,
 				CCC114C72CC936EC0099D384 /* EditTeamAssembly.swift in Sources */,
 				CCC114AD2CC8CEAD0099D384 /* CustomTextField.swift in Sources */,
@@ -587,7 +648,10 @@
 				CCC114BF2CC91D820099D384 /* AddBetAssembly.swift in Sources */,
 				CCC114942CC679510099D384 /* StrategyViewController.swift in Sources */,
 				CCC114CA2CC93D9D0099D384 /* EditBetViewController.swift in Sources */,
+				CCC114D42CC94A3B0099D384 /* AddStrategyViewController.swift in Sources */,
 				CCC114732CC676040099D384 /* OnboardingRouter.swift in Sources */,
+				CCC114E42CC95AF30099D384 /* UsageViewController.swift in Sources */,
+				CCC114E12CC952B60099D384 /* EmptyBetCollectionViewCell.swift in Sources */,
 				CCC114472CC669E90099D384 /* BaseViewController.swift in Sources */,
 				CCC114822CC678F00099D384 /* TabBarViewController.swift in Sources */,
 				CCC1148C2CC679340099D384 /* TeamAssembly.swift in Sources */,
@@ -609,10 +673,14 @@
 				CCC1144E2CC66A110099D384 /* ViewControllerFactory.swift in Sources */,
 				CCC114982CC679620099D384 /* StrategyAssembly.swift in Sources */,
 				CCC1149C2CC679720099D384 /* SettingsRouter.swift in Sources */,
+				CCC114D62CC94A430099D384 /* AddStrategyAssembly.swift in Sources */,
 				CCC114BD2CC91D780099D384 /* AddBetViewController.swift in Sources */,
+				CCC114D12CC947140099D384 /* StrategyCollectionViewCell.swift in Sources */,
+				CCC114D82CC94C5D0099D384 /* AddStrategyPhoto.swift in Sources */,
 				CCC114B72CC8D54B0099D384 /* CollectionViewHeader.swift in Sources */,
 				CCC1148A2CC6792D0099D384 /* TeamRouter.swift in Sources */,
 				CCC114C52CC936E50099D384 /* EditTeamViewController.swift in Sources */,
+				CCC114DF2CC94EA60099D384 /* EditStrategyAssembly.swift in Sources */,
 				CCC114902CC679410099D384 /* BetRouter.swift in Sources */,
 				CCC114622CC66B430099D384 /* StackView.swift in Sources */,
 				CCC1148E2CC6793B0099D384 /* BetViewController.swift in Sources */,
@@ -766,7 +834,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5PTH9U4CB9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DunkDive/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DunkDive;
@@ -798,7 +866,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5PTH9U4CB9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DunkDive/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DunkDive;

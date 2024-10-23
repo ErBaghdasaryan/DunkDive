@@ -65,7 +65,7 @@ class AddBetViewController: BaseViewController {
         collectionView.backgroundColor = .clear
         collectionView.allowsSelection = true
         collectionView.allowsMultipleSelection = false
-        collectionView.register(EmptyCollectionViewCell.self)
+        collectionView.register(EmptyBetCollectionViewCell.self)
         collectionView.register(TeamCollectionViewCell.self)
 
         collectionView.delegate = self
@@ -273,7 +273,7 @@ extension AddBetViewController: UICollectionViewDataSource, UICollectionViewDele
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let count = self.viewModel?.teams.count ?? 0
         if count == 0 {
-            let cell: EmptyCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
+            let cell: EmptyBetCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
             return cell
         } else {
             let cell: TeamCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
@@ -291,7 +291,7 @@ extension AddBetViewController: UICollectionViewDataSource, UICollectionViewDele
         let count = self.viewModel?.teams.count ?? 0
 
         if count == 0 {
-            return CGSize(width: collectionView.frame.width, height: 150)
+            return CGSize(width: collectionView.frame.width, height: 50)
         } else {
             return CGSize(width: 225, height: 80)
         }

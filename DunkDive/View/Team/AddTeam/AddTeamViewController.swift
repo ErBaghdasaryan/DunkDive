@@ -361,11 +361,6 @@ extension AddTeamViewController: UICollectionViewDataSource, UICollectionViewDel
             return CGSize(width: itemWidth, height: 74)
         }
     }
-
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        guard let cell = self.collectionView.cellForItem(at: indexPath) as? GameCollectionViewCell else { return }
-//        self.editGame(for: indexPath.row)
-    }
 }
 
 //MARK: Image Picker

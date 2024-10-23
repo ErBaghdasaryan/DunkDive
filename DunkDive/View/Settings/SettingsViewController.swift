@@ -153,7 +153,7 @@ extension SettingsViewController {
 
     @objc func usageTapped() {
         guard let navigationController = self.navigationController else { return }
-//        SettingsRouter.showUsageViewController(in: navigationController)
+        SettingsRouter.showUsageViewController(in: navigationController)
     }
 
     @objc func resetTapped() {

@@ -10,7 +10,6 @@ import DunkDiveModel
 import Combine
 
 public protocol IAddTeamViewModel {
-    func loadData()
     func addTeam(model: TeamModel)
     func deleteTeam(by id: Int)
     func addPlayer(model: PlayerModel) -> PlayerModel?
@@ -26,14 +25,6 @@ public class AddTeamViewModel: IAddTeamViewModel {
 
     public init(teamService: ITeamService) {
         self.teamService = teamService
-    }
-
-    public func loadData() {
-        do {
-//            self.teams = try self.teamService.getTeams()
-        } catch {
-            print(error)
-        }
     }
 
     public func addTeam(model: TeamModel) {
