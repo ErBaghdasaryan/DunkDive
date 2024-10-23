@@ -43,11 +43,39 @@ final class ViewControllerFactory {
         return viewController
     }
 
+    static func makeAddTeamViewController() -> AddTeamViewController {
+        let assembler = Assembler(commonAssemblies + [AddTeamAssembly()])
+        let viewController = AddTeamViewController()
+        viewController.viewModel = assembler.resolver.resolve(IAddTeamViewModel.self)
+        return viewController
+    }
+
+    static func makeEditTeamViewController(navigationModel: TeamNavigationModel) -> EditTeamViewController {
+        let assembler = Assembler(commonAssemblies + [EditTeamAssembly()])
+        let viewController = EditTeamViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditTeamViewModel.self, argument: navigationModel)
+        return viewController
+    }
+
     //MARK: Bet
     static func makeBetViewController() -> BetViewController {
         let assembler = Assembler(commonAssemblies + [BetAssembly()])
         let viewController = BetViewController()
         viewController.viewModel = assembler.resolver.resolve(IBetViewModel.self)
+        return viewController
+    }
+
+    static func makeAddBetViewController(navigationModel: SubjectNavigationModel) -> AddBetViewController {
+        let assembler = Assembler(commonAssemblies + [AddBetAssembly()])
+        let viewController = AddBetViewController()
+        viewController.viewModel = assembler.resolver.resolve(IAddBetViewModel.self, argument: navigationModel)
+        return viewController
+    }
+
+    static func makeEditBetViewController(navigationModel: BetNavigationModel) -> EditBetViewController {
+        let assembler = Assembler(commonAssemblies + [EditBetAssembly()])
+        let viewController = EditBetViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditBetViewModel.self, argument: navigationModel)
         return viewController
     }
 

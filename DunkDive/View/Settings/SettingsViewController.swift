@@ -35,15 +35,15 @@ class SettingsViewController: BaseViewController, UICollectionViewDelegate {
         buttonStack.distribution = .fillEqually
         buttonStack.spacing = 0
 
-        self.buttonStack.addArrangedSubview(createButton(imageName: "usage",
-                                                         title: "Usage Policy",
-                                                         action: #selector(usageTapped), position: 1))
+        self.buttonStack.addArrangedSubview(createButton(imageName: "rate",
+                                                         title: "Rate Us",
+                                                         action: #selector(rateTapped), position: 1))
         self.buttonStack.addArrangedSubview(createButton(imageName: "share",
                                                          title: "Share App",
                                                          action: #selector(shareTapped), position: 2))
-        self.buttonStack.addArrangedSubview(createButton(imageName: "rate",
-                                                         title: "Rate Us",
-                                                         action: #selector(rateTapped), position: 3))
+        self.buttonStack.addArrangedSubview(createButton(imageName: "usage",
+                                                         title: "Usage Policy",
+                                                         action: #selector(usageTapped), position: 3))
 
         self.view.addSubview(buttonStack)
         setupConstraints()

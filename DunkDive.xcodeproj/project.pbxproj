@@ -58,6 +58,24 @@
 		CCC1149A2CC6796B0099D384 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114992CC6796B0099D384 /* SettingsViewController.swift */; };
 		CCC1149C2CC679720099D384 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC1149B2CC679720099D384 /* SettingsRouter.swift */; };
 		CCC1149E2CC6797B0099D384 /* SettingsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC1149D2CC6797B0099D384 /* SettingsAssembly.swift */; };
+		CCC114A12CC8C2A70099D384 /* TeamEmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114A02CC8C2A70099D384 /* TeamEmptyTableViewCell.swift */; };
+		CCC114A32CC8C3A90099D384 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114A22CC8C3A90099D384 /* TeamTableViewCell.swift */; };
+		CCC114A52CC8CAE10099D384 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114A42CC8CAE10099D384 /* TabBarRouter.swift */; };
+		CCC114A82CC8CB550099D384 /* AddTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114A72CC8CB550099D384 /* AddTeamViewController.swift */; };
+		CCC114AA2CC8CB610099D384 /* AddTeamAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114A92CC8CB610099D384 /* AddTeamAssembly.swift */; };
+		CCC114AD2CC8CEAD0099D384 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114AC2CC8CEAD0099D384 /* CustomTextField.swift */; };
+		CCC114B02CC8D0370099D384 /* AddTeamPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114AF2CC8D0370099D384 /* AddTeamPhoto.swift */; };
+		CCC114B32CC8D2D60099D384 /* EmptyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114B22CC8D2D60099D384 /* EmptyCollectionViewCell.swift */; };
+		CCC114B52CC8D36D0099D384 /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114B42CC8D36D0099D384 /* PlayerCollectionViewCell.swift */; };
+		CCC114B72CC8D54B0099D384 /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114B62CC8D54B0099D384 /* CollectionViewHeader.swift */; };
+		CCC114BA2CC90E890099D384 /* BetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114B92CC90E890099D384 /* BetTableViewCell.swift */; };
+		CCC114BD2CC91D780099D384 /* AddBetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114BC2CC91D780099D384 /* AddBetViewController.swift */; };
+		CCC114BF2CC91D820099D384 /* AddBetAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114BE2CC91D820099D384 /* AddBetAssembly.swift */; };
+		CCC114C12CC9245B0099D384 /* TeamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114C02CC9245B0099D384 /* TeamCollectionViewCell.swift */; };
+		CCC114C52CC936E50099D384 /* EditTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114C42CC936E50099D384 /* EditTeamViewController.swift */; };
+		CCC114C72CC936EC0099D384 /* EditTeamAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114C62CC936EC0099D384 /* EditTeamAssembly.swift */; };
+		CCC114CA2CC93D9D0099D384 /* EditBetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114C92CC93D9D0099D384 /* EditBetViewController.swift */; };
+		CCC114CC2CC93DA30099D384 /* EditBetAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114CB2CC93DA30099D384 /* EditBetAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +128,24 @@
 		CCC114992CC6796B0099D384 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CCC1149B2CC679720099D384 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
 		CCC1149D2CC6797B0099D384 /* SettingsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAssembly.swift; sourceTree = "<group>"; };
+		CCC114A02CC8C2A70099D384 /* TeamEmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamEmptyTableViewCell.swift; sourceTree = "<group>"; };
+		CCC114A22CC8C3A90099D384 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		CCC114A42CC8CAE10099D384 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		CCC114A72CC8CB550099D384 /* AddTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamViewController.swift; sourceTree = "<group>"; };
+		CCC114A92CC8CB610099D384 /* AddTeamAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamAssembly.swift; sourceTree = "<group>"; };
+		CCC114AC2CC8CEAD0099D384 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CCC114AF2CC8D0370099D384 /* AddTeamPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamPhoto.swift; sourceTree = "<group>"; };
+		CCC114B22CC8D2D60099D384 /* EmptyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCC114B42CC8D36D0099D384 /* PlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCC114B62CC8D54B0099D384 /* CollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHeader.swift; sourceTree = "<group>"; };
+		CCC114B92CC90E890099D384 /* BetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetTableViewCell.swift; sourceTree = "<group>"; };
+		CCC114BC2CC91D780099D384 /* AddBetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBetViewController.swift; sourceTree = "<group>"; };
+		CCC114BE2CC91D820099D384 /* AddBetAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBetAssembly.swift; sourceTree = "<group>"; };
+		CCC114C02CC9245B0099D384 /* TeamCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCC114C42CC936E50099D384 /* EditTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeamViewController.swift; sourceTree = "<group>"; };
+		CCC114C62CC936EC0099D384 /* EditTeamAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeamAssembly.swift; sourceTree = "<group>"; };
+		CCC114C92CC93D9D0099D384 /* EditBetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBetViewController.swift; sourceTree = "<group>"; };
+		CCC114CB2CC93DA30099D384 /* EditBetAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBetAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +268,8 @@
 		CCC114412CC669C40099D384 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CCC114AE2CC8D02D0099D384 /* AddPhoto */,
+				CCC114AB2CC8CE9E0099D384 /* TextFields */,
 				CCC114792CC6766B0099D384 /* PageControl */,
 			);
 			path = Components;
@@ -300,6 +338,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC114812CC678F00099D384 /* TabBarViewController.swift */,
+				CCC114A42CC8CAE10099D384 /* TabBarRouter.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -307,6 +346,9 @@
 		CCC114832CC6790D0099D384 /* Team */ = {
 			isa = PBXGroup;
 			children = (
+				CCC114C32CC936D90099D384 /* EditTeam */,
+				CCC114A62CC8CB480099D384 /* AddTeam */,
+				CCC1149F2CC8C2980099D384 /* Cell */,
 				CCC114872CC679270099D384 /* TeamViewController.swift */,
 				CCC114892CC6792D0099D384 /* TeamRouter.swift */,
 				CCC1148B2CC679340099D384 /* TeamAssembly.swift */,
@@ -317,6 +359,9 @@
 		CCC114842CC679130099D384 /* Bet */ = {
 			isa = PBXGroup;
 			children = (
+				CCC114C82CC93D930099D384 /* EditBet */,
+				CCC114BB2CC91D6E0099D384 /* AddBet */,
+				CCC114B82CC90C030099D384 /* Cell */,
 				CCC1148D2CC6793B0099D384 /* BetViewController.swift */,
 				CCC1148F2CC679410099D384 /* BetRouter.swift */,
 				CCC114912CC679460099D384 /* BetAssembly.swift */,
@@ -342,6 +387,95 @@
 				CCC1149D2CC6797B0099D384 /* SettingsAssembly.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		CCC1149F2CC8C2980099D384 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114A02CC8C2A70099D384 /* TeamEmptyTableViewCell.swift */,
+				CCC114A22CC8C3A90099D384 /* TeamTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCC114A62CC8CB480099D384 /* AddTeam */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114B12CC8D2620099D384 /* Cell */,
+				CCC114A72CC8CB550099D384 /* AddTeamViewController.swift */,
+				CCC114A92CC8CB610099D384 /* AddTeamAssembly.swift */,
+			);
+			path = AddTeam;
+			sourceTree = "<group>";
+		};
+		CCC114AB2CC8CE9E0099D384 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114AC2CC8CEAD0099D384 /* CustomTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		CCC114AE2CC8D02D0099D384 /* AddPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114AF2CC8D0370099D384 /* AddTeamPhoto.swift */,
+			);
+			path = AddPhoto;
+			sourceTree = "<group>";
+		};
+		CCC114B12CC8D2620099D384 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114B22CC8D2D60099D384 /* EmptyCollectionViewCell.swift */,
+				CCC114B62CC8D54B0099D384 /* CollectionViewHeader.swift */,
+				CCC114B42CC8D36D0099D384 /* PlayerCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCC114B82CC90C030099D384 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114B92CC90E890099D384 /* BetTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCC114BB2CC91D6E0099D384 /* AddBet */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114C22CC924600099D384 /* Cell */,
+				CCC114BC2CC91D780099D384 /* AddBetViewController.swift */,
+				CCC114BE2CC91D820099D384 /* AddBetAssembly.swift */,
+			);
+			path = AddBet;
+			sourceTree = "<group>";
+		};
+		CCC114C22CC924600099D384 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114C02CC9245B0099D384 /* TeamCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCC114C32CC936D90099D384 /* EditTeam */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114C42CC936E50099D384 /* EditTeamViewController.swift */,
+				CCC114C62CC936EC0099D384 /* EditTeamAssembly.swift */,
+			);
+			path = EditTeam;
+			sourceTree = "<group>";
+		};
+		CCC114C82CC93D930099D384 /* EditBet */ = {
+			isa = PBXGroup;
+			children = (
+				CCC114C92CC93D9D0099D384 /* EditBetViewController.swift */,
+				CCC114CB2CC93DA30099D384 /* EditBetAssembly.swift */,
+			);
+			path = EditBet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,28 +568,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC1149E2CC6797B0099D384 /* SettingsAssembly.swift in Sources */,
+				CCC114B02CC8D0370099D384 /* AddTeamPhoto.swift in Sources */,
 				CCC1147F2CC676850099D384 /* Drawer.swift in Sources */,
 				CCC114752CC6760B0099D384 /* OnboardingAssembly.swift in Sources */,
 				CCC114532CC66A2D0099D384 /* UntilOnboardingRouter.swift in Sources */,
+				CCC114A52CC8CAE10099D384 /* TabBarRouter.swift in Sources */,
 				CCC114962CC6795B0099D384 /* StrategyRouter.swift in Sources */,
 				CCC1145C2CC66B2D0099D384 /* UIColor.swift in Sources */,
 				CCC1147D2CC676800099D384 /* ColorUtils.swift in Sources */,
 				CCC114582CC66A4A0099D384 /* TableView.swift in Sources */,
 				CCC114552CC66A350099D384 /* UntilOnboardingAssembly.swift in Sources */,
 				CCC114922CC679460099D384 /* BetAssembly.swift in Sources */,
+				CCC114BA2CC90E890099D384 /* BetTableViewCell.swift in Sources */,
 				CCC114882CC679270099D384 /* TeamViewController.swift in Sources */,
+				CCC114C72CC936EC0099D384 /* EditTeamAssembly.swift in Sources */,
+				CCC114AD2CC8CEAD0099D384 /* CustomTextField.swift in Sources */,
 				CCC114712CC675FD0099D384 /* OnboardingViewController.swift in Sources */,
+				CCC114BF2CC91D820099D384 /* AddBetAssembly.swift in Sources */,
 				CCC114942CC679510099D384 /* StrategyViewController.swift in Sources */,
+				CCC114CA2CC93D9D0099D384 /* EditBetViewController.swift in Sources */,
 				CCC114732CC676040099D384 /* OnboardingRouter.swift in Sources */,
 				CCC114472CC669E90099D384 /* BaseViewController.swift in Sources */,
 				CCC114822CC678F00099D384 /* TabBarViewController.swift in Sources */,
 				CCC1148C2CC679340099D384 /* TeamAssembly.swift in Sources */,
+				CCC114B32CC8D2D60099D384 /* EmptyCollectionViewCell.swift in Sources */,
+				CCC114CC2CC93DA30099D384 /* EditBetAssembly.swift in Sources */,
+				CCC114A12CC8C2A70099D384 /* TeamEmptyTableViewCell.swift in Sources */,
 				CCC114102CC6679A0099D384 /* AppDelegate.swift in Sources */,
+				CCC114AA2CC8CB610099D384 /* AddTeamAssembly.swift in Sources */,
 				CCC114602CC66B3C0099D384 /* UILabel.swift in Sources */,
 				CCC114782CC676170099D384 /* OnboardingCell.swift in Sources */,
 				CCC1145A2CC66B260099D384 /* CollectionView.swift in Sources */,
 				CCC1147B2CC676790099D384 /* AdvancedPageControl.swift in Sources */,
 				CCC114432CC669DD0099D384 /* BaseRouter.swift in Sources */,
+				CCC114B52CC8D36D0099D384 /* PlayerCollectionViewCell.swift in Sources */,
 				CCC1144C2CC66A080099D384 /* ServiceAssembly.swift in Sources */,
 				CCC114122CC6679A0099D384 /* SceneDelegate.swift in Sources */,
 				CCC1145E2CC66B330099D384 /* UIDevice.swift in Sources */,
@@ -463,11 +609,17 @@
 				CCC1144E2CC66A110099D384 /* ViewControllerFactory.swift in Sources */,
 				CCC114982CC679620099D384 /* StrategyAssembly.swift in Sources */,
 				CCC1149C2CC679720099D384 /* SettingsRouter.swift in Sources */,
+				CCC114BD2CC91D780099D384 /* AddBetViewController.swift in Sources */,
+				CCC114B72CC8D54B0099D384 /* CollectionViewHeader.swift in Sources */,
 				CCC1148A2CC6792D0099D384 /* TeamRouter.swift in Sources */,
+				CCC114C52CC936E50099D384 /* EditTeamViewController.swift in Sources */,
 				CCC114902CC679410099D384 /* BetRouter.swift in Sources */,
 				CCC114622CC66B430099D384 /* StackView.swift in Sources */,
 				CCC1148E2CC6793B0099D384 /* BetViewController.swift in Sources */,
+				CCC114C12CC9245B0099D384 /* TeamCollectionViewCell.swift in Sources */,
 				CCC114452CC669E30099D384 /* ReusableView.swift in Sources */,
+				CCC114A82CC8CB550099D384 /* AddTeamViewController.swift in Sources */,
+				CCC114A32CC8C3A90099D384 /* TeamTableViewCell.swift in Sources */,
 				CCC114512CC66A250099D384 /* UntilOnboardingViewController.swift in Sources */,
 				CCC114492CC669F00099D384 /* Setupable.swift in Sources */,
 				CCC1149A2CC6796B0099D384 /* SettingsViewController.swift in Sources */,

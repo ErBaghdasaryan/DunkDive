@@ -37,7 +37,7 @@ class TabBarViewController: UITabBarController {
                                                                 image: "settings",
                                                                 vc: ViewControllerFactory.makeSettingsViewController())
 
-        self.setViewControllers([teamViewController, betViewController, strategyViewController, settingsViewController], animated: true)
+        self.setViewControllers([teamViewController, betViewController, createSpacer(), strategyViewController, settingsViewController], animated: true)
         NotificationCenter.default.addObserver(self, selector: #selector(setCurrentPageToTeam), name: Notification.Name("ResetCompleted"), object: nil)
 
         betViewController.delegate = self
@@ -56,6 +56,8 @@ class TabBarViewController: UITabBarController {
         floatingButton.layer.shadowOffset = CGSize(width: 0, height: 4)
         floatingButton.layer.shadowRadius = 6
 
+        floatingButton.addTarget(self, action: #selector(addTapped), for: .touchUpInside)
+
         self.view.addSubview(floatingButton)
 
         floatingButton.snp.makeConstraints { make in
@@ -63,21 +65,29 @@ class TabBarViewController: UITabBarController {
             make.centerX.equalTo(self.tabBar.snp.centerX)
             make.bottom.equalTo(self.tabBar.snp.bottom).inset(44)
         }
-
-
-//        floatingButton.addTarget(self, action: #selector(floatingButtonTapped), for: .touchUpInside)
     }
 
     @objc func setCurrentPageToTeam() {
         self.selectedIndex = 0
     }
 
+    @objc func addTapped() {
+        guard let navigationController = self.navigationController else { return }
+        TabBarRouter.showAddTeamViewController(in: navigationController)
+    }
+
+    private func createSpacer() -> UIViewController {
+        let spacerVC = UIViewController()
+        spacerVC.tabBarItem.isEnabled = false
+        return spacerVC
+    }
+
     private func createNavigation(title: String, image: String, vc: UIViewController) -> UINavigationController {
         let navigation = UINavigationController(rootViewController: vc)
         self.tabBar.backgroundColor = UIColor(hex: "#0D1016")
         self.tabBar.itemPositioning = .centered
-        self.tabBar.itemWidth = 100
-        self.tabBar.itemSpacing = 400
+        self.tabBar.itemWidth = 48
+        self.tabBar.itemSpacing = 30
 
         let unselectedImage = UIImage(named: image)?.withRenderingMode(.alwaysTemplate)
         let selectedImage = UIImage(named: image)?.withTintColor(.white, renderingMode: .alwaysTemplate)
