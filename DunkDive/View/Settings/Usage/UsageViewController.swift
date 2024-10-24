@@ -21,7 +21,7 @@ final class UsageViewController: BaseViewController {
         view.backgroundColor = .white
         self.navigationController?.navigationBar.tintColor = .black
         self.webView.backgroundColor = .clear
-        if let url = URL(string: "https://www.termsfeed.com/live/957c7ca2-eb43-4c5a-9c74-715affd52aef") {
+        if let url = URL(string: "https://www.termsfeed.com/live/973b0b57-43de-425c-b597-f1124f499013") {
             webView.load(URLRequest(url: url))
         }
 

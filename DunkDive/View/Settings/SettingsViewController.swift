@@ -110,7 +110,7 @@ extension SettingsViewController {
     }
 
     @objc func shareTapped() {
-        let appStoreURL = URL(string: "https://apps.apple.com/us/app/winstats-cards/id6736991698")!
+        let appStoreURL = URL(string: "https://apps.apple.com/us/app/dunk-dive/id6737307008")!
 
         let activityViewController = UIActivityViewController(activityItems: [appStoreURL], applicationActivities: nil)
         activityViewController.popoverPresentationController?.sourceView = self.view
@@ -143,7 +143,7 @@ extension SettingsViewController {
             )
             alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
             alertController.addAction(UIAlertAction(title: "Go to App Store", style: .default) { _ in
-                if let appStoreURL = URL(string: "https://apps.apple.com/us/app/winstats-cards/id6736991698") {
+                if let appStoreURL = URL(string: "https://apps.apple.com/us/app/dunk-dive/id6737307008") {
                     UIApplication.shared.open(appStoreURL, options: [:], completionHandler: nil)
                 }
             })

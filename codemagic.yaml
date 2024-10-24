@@ -15,8 +15,8 @@ workflows:
         vars:
           XCODE_PROJECT: "DunkDive.xcodeproj" # <-- Put the name of your workspace here.
           XCODE_SCHEME: "DunkDive" # <-- Put the name of your scheme here.
-          BUNDLE_ID: "com.vio.squ4r3c0l0r" # <-- Put your Bundle Id here.
-          APP_STORE_APPLE_ID: 6596777460 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
+          BUNDLE_ID: "com.yav.d6nkd1ve" # <-- Put your Bundle Id here.
+          APP_STORE_APPLE_ID: 6737307008 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
         xcode: 15.4 # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
         cocoapods: default
       triggering:
@@ -34,7 +34,7 @@ workflows:
             keychain initialize
         - name: Fetch signing files
           script: |
-            app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --platform=IOS --create --certificate-key-password='700700'
+            app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --platform=IOS --create --certificate-key-password='106810'
         - name: Use system default keychain
           script: |
             keychain add-certificates
