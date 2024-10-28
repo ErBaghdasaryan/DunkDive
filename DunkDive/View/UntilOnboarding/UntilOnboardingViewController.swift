@@ -46,8 +46,8 @@ class UntilOnboardingViewController: BaseViewController, UICollectionViewDelegat
         logoImage.snp.makeConstraints { view in
             view.top.equalToSuperview().offset(276)
             view.centerX.equalToSuperview()
-            view.height.equalTo(168)
-            view.width.equalTo(157)
+            view.height.equalTo(270)
+            view.width.equalTo(270)
         }
 
         progressView.snp.makeConstraints { view in
