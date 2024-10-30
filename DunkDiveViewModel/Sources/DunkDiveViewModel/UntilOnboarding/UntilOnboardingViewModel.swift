@@ -10,6 +10,8 @@ import DunkDiveModel
 
 public protocol IUntilOnboardingViewModel {
     var skipOnboarding: Bool { get set }
+    var skip: Bool { get set }
+    var isAlreadyOpened: Bool { get }
     var appStorageService: IAppStorageService { get set }
 }
 
@@ -21,6 +23,21 @@ public class UntilOnboardingViewModel: IUntilOnboardingViewModel {
         }
         set {
             appStorageService.saveData(key: .skipOnboarding, value: newValue)
+        }
+    }
+
+    public var skip: Bool {
+        get {
+            return appStorageService.hasData(for: .alreadyOpened)
+        }
+        set {
+            appStorageService.saveData(key: .alreadyOpened, value: newValue)
+        }
+    }
+
+    public var isAlreadyOpened: Bool {
+        get {
+            return appStorageService.getData(key: .isAlreadyOpened)!
         }
     }
 

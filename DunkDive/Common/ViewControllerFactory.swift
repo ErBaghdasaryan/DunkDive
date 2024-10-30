@@ -113,4 +113,28 @@ final class ViewControllerFactory {
         let viewController = UsageViewController()
         return viewController
     }
+
+    //MARK: Home
+    static func makeHomeViewController() -> HomeViewController {
+        let assembler = Assembler(commonAssemblies + [HomeAssembly()])
+        let viewController = HomeViewController()
+        viewController.viewModel = assembler.resolver.resolve(IHomeViewModel.self)
+        return viewController
+    }
+
+    //MARK: Status
+    static func makeStatusViewController() -> StatusViewController {
+        let assembler = Assembler(commonAssemblies + [StatusAssembly()])
+        let viewController = StatusViewController()
+        viewController.viewModel = assembler.resolver.resolve(IStatusViewModel.self)
+        return viewController
+    }
+
+    //MARK: Profile
+    static func makeProfileViewController() -> ProfileViewController {
+        let assembler = Assembler(commonAssemblies + [ProfileAssembly()])
+        let viewController = ProfileViewController()
+        viewController.viewModel = assembler.resolver.resolve(IProfileViewModel.self)
+        return viewController
+    }
 }

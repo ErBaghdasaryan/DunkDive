@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC72B2682CD250CA00492AC9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B2672CD250CA00492AC9 /* HomeViewController.swift */; };
+		CC72B26A2CD250D800492AC9 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B2692CD250D800492AC9 /* HomeAssembly.swift */; };
+		CC72B26C2CD250DF00492AC9 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B26B2CD250DF00492AC9 /* HomeRouter.swift */; };
+		CC72B26E2CD250E500492AC9 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B26D2CD250E500492AC9 /* HomeCell.swift */; };
+		CC72B2702CD255B700492AC9 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B26F2CD255B700492AC9 /* StatusViewController.swift */; };
+		CC72B2722CD255C800492AC9 /* StatusAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B2712CD255C800492AC9 /* StatusAssembly.swift */; };
+		CC72B2742CD255D600492AC9 /* StatusRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B2732CD255D600492AC9 /* StatusRouter.swift */; };
+		CC72B2762CD2592400492AC9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B2752CD2592400492AC9 /* ProfileViewController.swift */; };
+		CC72B2782CD2592B00492AC9 /* ProfileAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72B2772CD2592B00492AC9 /* ProfileAssembly.swift */; };
 		CCC114102CC6679A0099D384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC1140F2CC6679A0099D384 /* AppDelegate.swift */; };
 		CCC114122CC6679A0099D384 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC114112CC6679A0099D384 /* SceneDelegate.swift */; };
 		CCC114192CC6679B0099D384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC114182CC6679B0099D384 /* Assets.xcassets */; };
@@ -88,6 +97,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC72B2672CD250CA00492AC9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC72B2692CD250D800492AC9 /* HomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
+		CC72B26B2CD250DF00492AC9 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		CC72B26D2CD250E500492AC9 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		CC72B26F2CD255B700492AC9 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		CC72B2712CD255C800492AC9 /* StatusAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusAssembly.swift; sourceTree = "<group>"; };
+		CC72B2732CD255D600492AC9 /* StatusRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusRouter.swift; sourceTree = "<group>"; };
+		CC72B2752CD2592400492AC9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC72B2772CD2592B00492AC9 /* ProfileAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
 		CCC1140C2CC6679A0099D384 /* DunkDive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DunkDive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC1140F2CC6679A0099D384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC114112CC6679A0099D384 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +201,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC72B2612CD2509400492AC9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CC72B2672CD250CA00492AC9 /* HomeViewController.swift */,
+				CC72B2692CD250D800492AC9 /* HomeAssembly.swift */,
+				CC72B26B2CD250DF00492AC9 /* HomeRouter.swift */,
+				CC72B2662CD250C100492AC9 /* Cell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CC72B2622CD2509900492AC9 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				CC72B26F2CD255B700492AC9 /* StatusViewController.swift */,
+				CC72B2712CD255C800492AC9 /* StatusAssembly.swift */,
+				CC72B2732CD255D600492AC9 /* StatusRouter.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		CC72B2652CD250B400492AC9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CC72B2752CD2592400492AC9 /* ProfileViewController.swift */,
+				CC72B2772CD2592B00492AC9 /* ProfileAssembly.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CC72B2662CD250C100492AC9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC72B26D2CD250E500492AC9 /* HomeCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		CCC114032CC6679A0099D384 = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +305,9 @@
 		CCC1143E2CC669B10099D384 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CC72B2652CD250B400492AC9 /* Profile */,
+				CC72B2622CD2509900492AC9 /* Status */,
+				CC72B2612CD2509400492AC9 /* Home */,
 				CCC114862CC6791D0099D384 /* Settings */,
 				CCC114852CC679180099D384 /* Strategy */,
 				CCC114842CC679130099D384 /* Bet */,
@@ -630,6 +689,7 @@
 				CCC114B02CC8D0370099D384 /* AddTeamPhoto.swift in Sources */,
 				CCC1147F2CC676850099D384 /* Drawer.swift in Sources */,
 				CCC114CF2CC946A60099D384 /* EmptyStrategyCollectionViewCell.swift in Sources */,
+				CC72B2722CD255C800492AC9 /* StatusAssembly.swift in Sources */,
 				CCC114752CC6760B0099D384 /* OnboardingAssembly.swift in Sources */,
 				CCC114532CC66A2D0099D384 /* UntilOnboardingRouter.swift in Sources */,
 				CCC114A52CC8CAE10099D384 /* TabBarRouter.swift in Sources */,
@@ -640,21 +700,27 @@
 				CCC114552CC66A350099D384 /* UntilOnboardingAssembly.swift in Sources */,
 				CCC114922CC679460099D384 /* BetAssembly.swift in Sources */,
 				CCC114BA2CC90E890099D384 /* BetTableViewCell.swift in Sources */,
+				CC72B2702CD255B700492AC9 /* StatusViewController.swift in Sources */,
 				CCC114DB2CC94E770099D384 /* EditStrategyViewController.swift in Sources */,
 				CCC114882CC679270099D384 /* TeamViewController.swift in Sources */,
 				CCC114C72CC936EC0099D384 /* EditTeamAssembly.swift in Sources */,
 				CCC114AD2CC8CEAD0099D384 /* CustomTextField.swift in Sources */,
+				CC72B26A2CD250D800492AC9 /* HomeAssembly.swift in Sources */,
 				CCC114712CC675FD0099D384 /* OnboardingViewController.swift in Sources */,
 				CCC114BF2CC91D820099D384 /* AddBetAssembly.swift in Sources */,
 				CCC114942CC679510099D384 /* StrategyViewController.swift in Sources */,
 				CCC114CA2CC93D9D0099D384 /* EditBetViewController.swift in Sources */,
 				CCC114D42CC94A3B0099D384 /* AddStrategyViewController.swift in Sources */,
+				CC72B2742CD255D600492AC9 /* StatusRouter.swift in Sources */,
 				CCC114732CC676040099D384 /* OnboardingRouter.swift in Sources */,
+				CC72B26C2CD250DF00492AC9 /* HomeRouter.swift in Sources */,
 				CCC114E42CC95AF30099D384 /* UsageViewController.swift in Sources */,
 				CCC114E12CC952B60099D384 /* EmptyBetCollectionViewCell.swift in Sources */,
+				CC72B26E2CD250E500492AC9 /* HomeCell.swift in Sources */,
 				CCC114472CC669E90099D384 /* BaseViewController.swift in Sources */,
 				CCC114822CC678F00099D384 /* TabBarViewController.swift in Sources */,
 				CCC1148C2CC679340099D384 /* TeamAssembly.swift in Sources */,
+				CC72B2682CD250CA00492AC9 /* HomeViewController.swift in Sources */,
 				CCC114B32CC8D2D60099D384 /* EmptyCollectionViewCell.swift in Sources */,
 				CCC114CC2CC93DA30099D384 /* EditBetAssembly.swift in Sources */,
 				CCC114A12CC8C2A70099D384 /* TeamEmptyTableViewCell.swift in Sources */,
@@ -683,6 +749,7 @@
 				CCC114DF2CC94EA60099D384 /* EditStrategyAssembly.swift in Sources */,
 				CCC114902CC679410099D384 /* BetRouter.swift in Sources */,
 				CCC114622CC66B430099D384 /* StackView.swift in Sources */,
+				CC72B2762CD2592400492AC9 /* ProfileViewController.swift in Sources */,
 				CCC1148E2CC6793B0099D384 /* BetViewController.swift in Sources */,
 				CCC114C12CC9245B0099D384 /* TeamCollectionViewCell.swift in Sources */,
 				CCC114452CC669E30099D384 /* ReusableView.swift in Sources */,
@@ -691,6 +758,7 @@
 				CCC114512CC66A250099D384 /* UntilOnboardingViewController.swift in Sources */,
 				CCC114492CC669F00099D384 /* Setupable.swift in Sources */,
 				CCC1149A2CC6796B0099D384 /* SettingsViewController.swift in Sources */,
+				CC72B2782CD2592B00492AC9 /* ProfileAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -847,7 +915,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yav.d6nkd1ve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -880,7 +948,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yav.d6nkd1ve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

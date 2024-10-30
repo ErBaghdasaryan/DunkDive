@@ -23,5 +23,18 @@ final class UntilOnboardingRouter: BaseRouter {
         viewController.navigationItem.hidesBackButton = true
         navigationController.pushViewController(viewController, animated: true)
     }
+
+    static func showHomeViewController(in navigationController: UINavigationController) {
+        let viewController = ViewControllerFactory.makeHomeViewController()
+        viewController.navigationItem.hidesBackButton = true
+        navigationController.pushViewController(viewController, animated: true)
+    }
+
+    static func showProfileViewController(in navigationController: UINavigationController) {
+        let viewController = ViewControllerFactory.makeProfileViewController()
+        viewController.navigationItem.hidesBackButton = true
+        navigationController.navigationBar.isHidden = true
+        navigationController.pushViewController(viewController, animated: true)
+    }
 }
 

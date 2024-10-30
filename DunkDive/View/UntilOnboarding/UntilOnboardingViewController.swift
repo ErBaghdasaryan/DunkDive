@@ -90,7 +90,16 @@ extension UntilOnboardingViewController {
         guard let navigationController = self.navigationController else { return }
         guard var viewModel = self.viewModel else { return }
         if viewModel.appStorageService.hasData(for: .skipOnboarding) {
-            UntilOnboardingRouter.showTabBarViewController(in: navigationController)
+            if !viewModel.isAlreadyOpened {
+                if viewModel.appStorageService.hasData(for: .alreadyOpened) {
+                    UntilOnboardingRouter.showProfileViewController(in: navigationController)
+                } else {
+                    viewModel.skip = true
+                    UntilOnboardingRouter.showHomeViewController(in: navigationController)
+                }
+            } else {
+                UntilOnboardingRouter.showTabBarViewController(in: navigationController)
+            }
         } else {
             viewModel.skipOnboarding = true
             UntilOnboardingRouter.showOnboardingViewController(in: navigationController)
