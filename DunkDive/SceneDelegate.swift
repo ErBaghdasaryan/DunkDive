@@ -204,7 +204,7 @@ extension SceneDelegate {
         let calendar = Calendar.current
         let day = calendar.component(.day, from: currentDate)
 
-        return day > 1
+        return day > 3
     }
 }
 
